@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1F1F1"
+    android:background="@drawable/background"
     tools:context=".Activities.LoginActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -53,7 +53,8 @@
                         android:id="@+id/inputLogin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Número de IMEP"
+                        android:hint="Matrícula"
+                        android:inputType="number"
                         android:textSize="14sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -89,7 +90,8 @@
                         android:id="@+id/inputSenha"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Senha"
+                        android:hint="CPF do responsável"
+                        android:inputType="number"
                         android:textSize="14sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -110,7 +112,6 @@
                     app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
 
         </androidx.cardview.widget.CardView>
 

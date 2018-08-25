@@ -1,7 +1,6 @@
 package com.dev.hacknit.Helpers;
 
 import android.graphics.Color;
-
 import com.dev.hacknit.Database.ChartModel;
 import com.github.mikephil.charting.components.AxisBase;
 import com.github.mikephil.charting.components.Legend;
@@ -15,12 +14,9 @@ import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
 import com.github.mikephil.charting.formatter.IAxisValueFormatter;
 import com.github.mikephil.charting.formatter.IValueFormatter;
-import com.github.mikephil.charting.utils.ColorTemplate;
 import com.github.mikephil.charting.utils.ViewPortHandler;
-
 import java.util.ArrayList;
 import java.util.List;
-
 
 class LabelFormatter implements IAxisValueFormatter {
     private final String[] mLabels;
@@ -37,8 +33,6 @@ class LabelFormatter implements IAxisValueFormatter {
 
 class DayFormmater implements IValueFormatter
 {
-
-
     @Override
     public String getFormattedValue(float value, Entry entry, int dataSetIndex, ViewPortHandler viewPortHandler) {
         return ""+ (int)value + " dias";
@@ -89,22 +83,19 @@ public class CustomChart {
             // add many colors
             ArrayList<Integer> colors = new ArrayList<Integer>();
 
-            for (int c : ColorTemplate.VORDIPLOM_COLORS)
-                colors.add(c);
+            int cor1 = Color.parseColor("#f86674"); //vermelho
+            colors.add(cor1);
 
-            for (int c : ColorTemplate.JOYFUL_COLORS)
-                colors.add(c);
+            int cor2 = Color.parseColor("#47c664"); //verde
+            colors.add(cor2);
 
-            for (int c : ColorTemplate.COLORFUL_COLORS)
-                colors.add(c);
+            int cor3 = Color.parseColor("#dc3545"); //azul
+            colors.add(cor3);
 
-            for (int c : ColorTemplate.LIBERTY_COLORS)
-                colors.add(c);
+            int cor4 = Color.parseColor("#7b45dd"); //roxo
+            colors.add(cor4);
 
-            for (int c : ColorTemplate.PASTEL_COLORS)
-                colors.add(c);
 
-            colors.add(ColorTemplate.getHoloBlue());
 
             return colors;
 

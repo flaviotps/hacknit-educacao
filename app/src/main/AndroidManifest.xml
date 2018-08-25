@@ -24,7 +24,6 @@
         <activity android:name=".Activities.AlunoActivity"
             android:configChanges="orientation|screenSize"></activity>
         <activity android:name=".Activities.BoletimActivity"/>
-        <activity android:name=".Activities.CalendarioActivity" />
         <activity android:name=".Activities.GraficosNotasActivity"
             android:configChanges="orientation|screenSize"/>
         <activity android:name=".Activities.GraficosFaltasActivity"

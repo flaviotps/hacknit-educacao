@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F1F1F1"
+    android:background="@drawable/background"
     tools:context=".Activities.MainActivity">
 
     <ScrollView
@@ -44,9 +44,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:layout_marginTop="15dp"
-                    android:background="@drawable/fundo_oval"
                     android:padding="10dp"
-                    android:src="@drawable/ic_person" />
+                    android:src="@drawable/aluno" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -69,7 +68,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:gravity="center_horizontal"
-                    android:text="Informações básicas do aluno." />
+                    android:text="Informações pessoais do aluno." />
 
             </LinearLayout>
 
@@ -97,9 +96,8 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:layout_marginTop="15dp"
-                    android:background="@drawable/fundo_oval"
                     android:padding="10dp"
-                    android:src="@drawable/ic_list" />
+                    android:src="@drawable/boletim" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -155,15 +153,14 @@
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:layout_marginTop="15dp"
-                            android:background="@drawable/fundo_oval"
                             android:padding="10dp"
-                            android:src="@drawable/ic_today" />
+                            android:src="@drawable/grafico" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:text="Calendário"
+                            android:text="Matérias"
                             android:textStyle="bold"/>
 
                         <androidx.viewpager.widget.ViewPager
@@ -180,7 +177,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:gravity="center_horizontal"
-                            android:text="Presenças e faltas do aluno no mês." />
+                            android:text="Notas bimestrais do aluno." />
 
                     </LinearLayout>
 
@@ -207,15 +204,14 @@
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:layout_marginTop="15dp"
-                            android:background="@drawable/fundo_oval"
                             android:padding="10dp"
-                            android:src="@drawable/ic_list" />
+                            android:src="@drawable/calendario" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:text="Opção 4"
+                            android:text="Frequência"
                             android:textStyle="bold" />
 
                         <androidx.viewpager.widget.ViewPager
@@ -232,7 +228,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:gravity="center_horizontal"
-                            android:text="Descrição da opção 4." />
+                            android:text="Presenças e faltas do aluno no ano." />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

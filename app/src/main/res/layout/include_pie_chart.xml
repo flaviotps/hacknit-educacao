@@ -14,7 +14,7 @@
             android:id="@+id/PieChartTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
+            android:background="#FFCA4F"
             android:paddingLeft="8dp"
             android:text="Bartitle"
             android:textColor="#fff"
