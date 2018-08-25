@@ -4,7 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.dev.hacknit.Database.Database;
 import com.dev.hacknit.R;
+
+import org.json.JSONException;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -16,6 +20,8 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         getSupportActionBar().hide();
+
+
 
         int TEMPO = 3000; //Milissegundos
 

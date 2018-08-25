@@ -43,7 +43,8 @@ public class DataModel {
     }
 
     public String getMaeCpf() {
-        return maeCpf;
+        String finalStr = maeCpf.replace(".","").replace("-","");
+        return finalStr;
     }
 
     public List<Ano> getAnoList() {
@@ -168,8 +169,11 @@ public class DataModel {
     String mae;
     String paiCpf;
     String maeCpf;
+    String matricula;
 
-
+    public String getMatricula() {
+        return matricula;
+    }
 
     List<Ano> anoList;
 
