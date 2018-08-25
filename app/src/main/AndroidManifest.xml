@@ -12,11 +12,16 @@
         <activity android:name=".Activities.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.LoginActivity"></activity>
-        <activity android:name=".Activities.MainActivity"></activity>
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.AlunoActivity" />
+        <activity android:name=".Activities.BoletimActivity" />
+        <activity android:name=".Activities.CalendarioActivity" />
+        <activity android:name=".Activities.Opcao4Activity"></activity>
     </application>
 
 </manifest>
