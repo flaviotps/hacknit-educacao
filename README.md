@@ -1,51 +1,29 @@
-## Este é o repositório do HackNit referente ao tema *Educação*.
+HackNit - Educação - Grupo 08
+======
 
-O arquivo info.txt contém informações acerca de como acessar os dados que devem ser utilizados na construção do projeto proposto.
+Trabalho proposto como solução do desafio do tema de Educação: "De que forma é possível incentivar a participação dos pais e/ou responsáveis na vida escolar dos estudantes?".
 
-Para acesso à base de dados de alunos contate a equipe de apoio no Telegram.
+## Sobre
+É indubitável para o nosso grupo, tendo em vista o mundo conectado que vivemos hoje em dia, que a solução para o problema de educação em Niterói está no desenvolvimento de tecnologias, mais especiaficamente aquela que existe em um número maior do que humanos nos tempos atuais: o celular.  
+O "BoletimNit" é um aplicativo mobile, desenvolvido utilizando a IDE "Android Studio v3.3 Canary", que integra todos os dados dos alunos cadastrados nas escolas e oferece ao seus reponsáveis dados importantes para o melhor acompanhamento do rendimento dos estudantes durante o periodo letivo.
+A ferramenta possibilita a interação do responsável do aluno matrículado na escola, acompanhando a vida escolar do estudante.
+Gráfico são construidos para melhorar a visualização de progresso ou decressimo do aluno em cada disciplina. Em caso de uma possível queda de nota, o sistema possibilita o responsável solicitar aula de monitoria (dependendo de cada escola) com o obejtivo de melhorar a compreensão do aluno na matéria.
+Com esse sistema integrado no cotidiano das escolas, temos certeza que iremos aumentar o engajamento dos pais e/ou responsáveis na vida escolar dos estudantes, já que o aplicativo oferecerá todo o suporte para que isso seja possível.
 
-### Instruções
+## Funcionalidades
+- Resumo com as insformaçoes pessoais do aluno
+- Boletim do aluno
+- Gráfico de Frequência do ano atual do aluno
+- Gráficos com as notas bimestrais do aluno
 
-*É recomendada a leitura dos capítulos 6 e 7 do [edital](https://github.com/seplagniteroi/hacknit/raw/master/EditaldeParticipantes-HackNIT_ERRATA.pdf), para garantir a conformidade do projeto com as regras do evento.*
+## Ferramentas utilizadas
 
-É necessário possuir o [Git](https://git-scm.com/) instalado para utilizar os repositórios hospedados no GitHub. Um guia de introdução ao Git pode ser acessado em https://guides.github.com/introduction/git-handbook/.
+- [Material Design](https://material.io/design/)
+- [MP Android Chart](https://github.com/PhilJay/MPAndroidChart)
 
-### Copiando o projeto
+## APK
 
-Um membro da equipe deverá fazer o fork do repositório. Isso pode ser feito clicando no botão **Fork** na parte superior da página:
+Um exemplo do aplicativo `.apk` gerado neste trabalho encontra-se [aqui](https://github.com/marcellocamara/hacknit-educacao).
 
-![clone](https://github.com/seplagniteroi/hacknit/raw/master/images/fork.png)
-
-Esse membro deverá então fornecer as permissões necessárias aos demais membros da equipe. A criação de um time no GitHub permite conceder as permissões rapidamente.
-
-Após o fork ser realizado os membros da equipe podem baixar cópias locais do projeto, utilizando o comando git clone. O endereço do repositório pode ser acessado clicando no botão **Clone or download** nos controles superiores:
-
-![clone](https://github.com/seplagniteroi/hacknit/raw/master/images/clone.png)
-
-### Entrega
-
-O ato da entrega consiste em realizar um único pull request, que será processado automaticamente. Para realizar essa ação é necessário clicar no botão **New pull request** no repositório que contém o fork do projeto:
-
-![pullrequest](https://github.com/seplagniteroi/hacknit/raw/master/images/pullrequest.png)
-
-Será necessaria a confirmação através do botão **Create pull request**:
-
-![pullrequest2](https://github.com/seplagniteroi/hacknit/raw/master/images/pullrequest2.png)
-
-Para o processamento correto do pull request, o título deve seguir **obrigatoriamente** o padrão:
-
-> XX - Solução
-
-Onde XX é o número da equipe. A descrição é opcional:
-
-![pullrequest3](https://github.com/seplagniteroi/hacknit/raw/master/images/pullrequest3.png)
-
-***As entregas serão aceitas até 11:00 do dia 26 de agosto. após esse horário, não serão mais processadas.***
-
-Mais Informações sobre fork e pull request podem ser acessadas em https://guides.github.com/activities/forking/.
-
-### Documentação
-
-O arquivo README.MD deve ser **obrigatoriamente** substituído de forma a conter uma breve descrição da solução, assim como a especificação completa do ambiente que o projeto foi construído, incluindo sistema operacional, linguagens, frameworks, APIs, bibliotecas e quaisquer outras dependências, assim como as respectivas versões utilizadas.
-
-Qualquer dúvida sobre as operações descritas aqui podem ser encaminhadas ao canal [Hacknit](https://t.me/joinchat/BYx24Q0lDtHBc7P7gnfEOA) no Telegram.
+## Desenvolvimento
+O  desenvolvimento do aplicativo foi elaborado para ser o mais acessível possível para os responsáveis dos estudantes, resultando em um aplicativo significamente leve, evitando dos responsáves serem impedidos de baixar o app por falta de espaço no celular, e na implementação de um design mais prático e simplista. Assim que o usuário abre o aplicativo, um guia de instruções interativo aparece na tela para sanar todas as possíveis dúvidas dos usuários com o aplicativo.
