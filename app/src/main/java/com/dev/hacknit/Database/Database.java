@@ -24,6 +24,26 @@ public class Database {
         dataModels = new ArrayList<>();
     }
 
+    public DataModel getDataModel(String CPF, String IMEP){
+
+        for (DataModel d:dataModels) {
+            if(d.getMatricula().trim().equals(IMEP)){
+
+                if(d.getMaeCpf().equals(CPF)){
+                    return d;
+                }else{
+                    Toast.makeText(activity,"SENHA INVALIDA",Toast.LENGTH_SHORT).show();
+                }
+
+
+            }else{
+                Toast.makeText(activity,"IMEP INVALIDO",Toast.LENGTH_SHORT).show();
+
+            }
+        }
+        return null;
+    }
+
     public void readItems(int resource) throws JSONException {
 
         dataModels = new ArrayList<>();
@@ -43,6 +63,7 @@ public class Database {
             data.paiCpf = object.getString("pai_cpf");
             data.mae = object.getString("mae_nome");
             data.maeCpf = object.getString("mae_cpf");
+            data.matricula = object.getString("matricula");
 
             for(int j=0;j<=3;j++) {
 
