@@ -20,9 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.SplashScreen" />
         <activity android:name=".Activities.LoginActivity" />
-        <activity android:name=".Activities.IntroActivity" />
         <activity android:name=".Activities.AlunoActivity" />
         <activity android:name=".Activities.BoletimActivity" />
         <activity android:name=".Activities.CalendarioActivity" />
