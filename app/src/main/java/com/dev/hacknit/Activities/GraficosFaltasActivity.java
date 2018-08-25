@@ -30,7 +30,7 @@ public class GraficosFaltasActivity extends AppCompatActivity {
         chartModels = new ArrayList<>();
 
 
-        getSupportActionBar().setTitle("Médias bimestrais");
+        getSupportActionBar().setTitle("Resumo de faltas");
 
 
         for(int i=0;i<Database.dataModels.get(0).getAnoList().size();i++){

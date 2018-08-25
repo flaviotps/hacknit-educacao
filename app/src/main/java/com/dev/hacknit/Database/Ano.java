@@ -1,14 +1,9 @@
 package com.dev.hacknit.Database;
 
-import android.util.Log;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Ano{
-
-
-
 
 
     public int index;

@@ -5,7 +5,6 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import com.dev.hacknit.Database.Database;
 import com.dev.hacknit.R;
 import org.json.JSONException;

@@ -7,10 +7,8 @@ import com.dev.hacknit.Database.Database;
 import com.dev.hacknit.Helpers.ChartAdapter;
 import com.dev.hacknit.Helpers.Constants;
 import com.dev.hacknit.R;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
