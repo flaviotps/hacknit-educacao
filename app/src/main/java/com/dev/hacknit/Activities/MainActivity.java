@@ -4,13 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import com.dev.hacknit.Database.Aluno;
 import com.dev.hacknit.Database.Database;
 import com.dev.hacknit.R;
 import org.json.JSONException;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -37,13 +34,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cardView3.setOnClickListener(this);
         cardView4.setOnClickListener(this);
 
+
         try {
-           List<Aluno> alunos = database.ReadAlunos(R.raw.data);
-            for (Aluno aluno:alunos) {
-                Log.i("ALUNO",aluno.nome);
-            }
+            database.readItems(R.raw.dados);
         } catch (JSONException e) {
             e.printStackTrace();
+
         }
     }
 
@@ -61,12 +57,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.cardView3: {
-                Intent telaCalendario = new Intent(MainActivity.this, CalendarioActivity.class);
-                startActivity(telaCalendario);
+                Intent telasFaltas = new Intent(MainActivity.this, GraficosNotasActivity.class);
+                startActivity(telasFaltas);
                 break;
             }
             case R.id.cardView4: {
-                Intent telaOpcao4 = new Intent(MainActivity.this, Opcao4Activity.class);
+                Intent telaOpcao4 = new Intent(MainActivity.this, GraficosFaltasActivity.class);
                 startActivity(telaOpcao4);
                 break;
             }

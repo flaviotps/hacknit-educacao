@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dev.hacknit">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE">
+
+    </uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,17 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Activities.SplashScreen">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".Activities.LoginActivity" />
-        <activity android:name=".Activities.MainActivity" />
-        <activity android:name=".Activities.AlunoActivity" />
-        <activity android:name=".Activities.BoletimActivity" />
+        <activity android:name=".Activities.MainActivity"/>
+        <activity android:name=".Activities.LoginActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"/>
+        <activity android:name=".Activities.AlunoActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity android:name=".Activities.BoletimActivity"/>
         <activity android:name=".Activities.CalendarioActivity" />
-        <activity android:name=".Activities.Opcao4Activity"></activity>
+        <activity android:name=".Activities.GraficosNotasActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".Activities.GraficosFaltasActivity"
+            android:configChanges="orientation|screenSize"/>
     </application>
-
 </manifest>
