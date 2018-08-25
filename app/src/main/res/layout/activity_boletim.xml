@@ -250,7 +250,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/txtBoletimArtes" />
 
                 <TextView
-                    android:id="@+id/textView20"
+                    android:id="@+id/txtBoletimEdFis"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -271,10 +271,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/textView20" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimEdFis" />
 
                 <TextView
-                    android:id="@+id/textView22"
+                    android:id="@+id/txtBoletimGeog"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -295,10 +295,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/textView22" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimGeog" />
 
                 <TextView
-                    android:id="@+id/textView24"
+                    android:id="@+id/txtBoletimIng"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -319,10 +319,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimIng" />
 
                 <TextView
-                    android:id="@+id/textView26"
+                    android:id="@+id/txtBoletimPort"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -334,7 +334,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
                 <TextView
-                    android:id="@+id/textView27"
+                    android:id="@+id/txtBoletimRedacao"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -343,7 +343,7 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/textView26" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimPort" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
