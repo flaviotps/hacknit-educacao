@@ -28,4 +28,4 @@ Com esse sistema integrado no cotidiano das escolas, temos certeza que iremos au
 Um exemplo do aplicativo `.apk` gerado neste trabalho encontra-se [aqui](https://github.com/marcellocamara/hacknit-educacao/tree/master/APK).
 
 ## Desenvolvimento
-O  desenvolvimento do aplicativo foi elaborado para ser o mais acessível possível para os responsáveis dos estudantes, resultando em um aplicativo significamente leve, evitando dos responsáves serem impedidos de baixar o app por falta de espaço no celular, e na implementação de um design mais prático e simplista.
+O  desenvolvimento do aplicativo foi elaborado para ser o mais acessível possível para os responsáveis dos estudantes, resultando em um aplicativo significamente leve, evitando dos responsáves serem impedidos de baixar o app por falta de espaço no celular e na implementação de um design mais prático e simplista.
