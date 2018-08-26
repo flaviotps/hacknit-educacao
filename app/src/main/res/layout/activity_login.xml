@@ -100,7 +100,7 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <Button
-
+                    android:background="@drawable/btn_login"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
                     android:id="@+id/btnLogar"
