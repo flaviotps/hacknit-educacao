@@ -53,6 +53,19 @@ public class DataModel {
 
 
 
+
+        public Bimestre getBimestreByID(int id){
+
+            for(int i=0;i<anoList.size();i++){
+                for(int j=0;j<anoList.get(i).bimestreList.size();j++){
+                  return anoList.get(i).bimestreList.get(id);
+                }
+
+            }
+            return null;
+        }
+
+
     public String getMatematica(){
         String s = "";
         for(int i=0;i<anoList.size();i++){
