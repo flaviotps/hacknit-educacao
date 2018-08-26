@@ -69,7 +69,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:gravity="center_horizontal"
-                    android:text="Informações pessoais do aluno." />
+                    android:text="Informações pessoais do aluno" />
 
             </LinearLayout>
 
@@ -122,7 +122,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
                     android:gravity="center_horizontal"
-                    android:text="Boletim com notas do aluno." />
+                    android:text="Boletim com notas do aluno" />
 
             </LinearLayout>
 
@@ -162,7 +162,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:text="Matérias"
+                            android:text="Desempenho"
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
@@ -180,7 +180,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:gravity="center_horizontal"
-                            android:text="Notas bimestrais do aluno." />
+                            android:text="Notas bimestrais do aluno" />
 
                     </LinearLayout>
 
@@ -232,7 +232,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:gravity="center_horizontal"
-                            android:text="Presenças e faltas do aluno no ano." />
+                            android:text="Presenças e faltas do aluno no ano" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

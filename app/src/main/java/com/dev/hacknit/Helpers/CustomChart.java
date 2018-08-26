@@ -47,10 +47,7 @@ public class CustomChart {
 
         public static void CreateBarChart(ChartAdapter.BarViewHolder barViewHolder, ChartModel chartModel) {
 
-            if (chartModel.getMedia() < 6.0f) {
-                barViewHolder.Info.setVisibility(View.VISIBLE);
-                barViewHolder.Info.setText("O aluno precisa de reforço em " + chartModel.Title.toLowerCase());
-            }
+
             // barViewHolder.Info.
             barViewHolder.Title.setText(chartModel.Title);
             barViewHolder.Chart.getDescription().setText(empty);
@@ -63,6 +60,9 @@ public class CustomChart {
 
             barViewHolder.Chart.getAxisRight().setEnabled(false);
             YAxis leftAxis = barViewHolder.Chart.getAxisLeft();
+            leftAxis.setAxisMaximum(10f);
+            leftAxis.setAxisMinimum(0f);
+
 
             leftAxis.setDrawGridLines(true);
             leftAxis.setSpaceTop(8f);
@@ -73,6 +73,14 @@ public class CustomChart {
 
             BarData data = new BarData(dataSet);
             data.setBarWidth(0.9f); // set custom bar width
+
+            if (chartModel.getMedia() < 6.0f) {
+                barViewHolder.Info.setVisibility(View.VISIBLE);
+                barViewHolder.Info.setText(barViewHolder.Title.getText());
+            } else {
+                barViewHolder.Info.setVisibility(View.GONE);
+                barViewHolder.Info.setText("");
+            }
 
             barViewHolder.Chart.setData(data);
             barViewHolder.Chart.setFitBars(true); // make the x-axis fit exactly all bars

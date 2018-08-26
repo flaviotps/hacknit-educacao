@@ -1,1 +1,752 @@
-[{"id": 0, "ano": {"0": {"0": {"disciplinas": {"matematica": 10, "historia": 0, "portugues": 8, "biologia": 6, "geografia": 7, "ingles": 7, "redacao": 0, "artes": 4, "educacaofisica": 3, "filosofia": 0}, "faltas": 10}, "1": {"disciplinas": {"matematica": 3, "historia": 5, "portugues": 9, "biologia": 5, "geografia": 3, "ingles": 8, "redacao": 2, "artes": 7, "educacaofisica": 2, "filosofia": 10}, "faltas": 5}, "2": {"disciplinas": {"matematica": 5, "historia": 7, "portugues": 9, "biologia": 4, "geografia": 10, "ingles": 6, "redacao": 7, "artes": 0, "educacaofisica": 7, "filosofia": 0}, "faltas": 0}, "3": {"disciplinas": {"matematica": 3, "historia": 2, "portugues": 8, "biologia": 0, "geografia": 9, "ingles": 9, "redacao": 9, "artes": 10, "educacaofisica": 10, "filosofia": 2}, "faltas": 15}}}, "idade": 14, "matricula": "71250094925", "nome": "Lancaster Christoper", "escola": "ADELINO MAGALH\u00c3ES", "cpf": "139.914.864-82", "pai_nome": "Harvey Griffith", "pai_cpf": "397.833.878-55", "mae_nome": "Sylvester Rogozen", "mae_cpf": "187.021.386-62"}, {"id": 1, "ano": {"0": {"0": {"disciplinas": {"matematica": 3, "historia": 0, "portugues": 7, "biologia": 5, "geografia": 6, "ingles": 8, "redacao": 3, "artes": 10, "educacaofisica": 10, "filosofia": 6}, "faltas": 21}, "1": {"disciplinas": {"matematica": 9, "historia": 8, "portugues": 9, "biologia": 3, "geografia": 3, "ingles": 3, "redacao": 0, "artes": 10, "educacaofisica": 7, "filosofia": 3}, "faltas": 21}, "2": {"disciplinas": {"matematica": 9, "historia": 2, "portugues": 8, "biologia": 2, "geografia": 10, "ingles": 2, "redacao": 4, "artes": 1, "educacaofisica": 3, "filosofia": 4}, "faltas": 38}, "3": {"disciplinas": {"matematica": 5, "historia": 9, "portugues": 6, "biologia": 0, "geografia": 3, "ingles": 4, "redacao": 0, "artes": 6, "educacaofisica": 10, "filosofia": 0}, "faltas": 34}}}, "idade": 10, "matricula": "13585975968", "nome": "Dorcia Jasmin", "escola": "AYRTON SENNA", "cpf": "378.795.493-74", "pai_nome": "Gadmann Tullius", "pai_cpf": "949.727.066-60", "mae_nome": "Prudence Tena", "mae_cpf": "924.257.677-89"}, {"id": 2, "ano": {"0": {"0": {"disciplinas": {"matematica": 10, "historia": 5, "portugues": 1, "biologia": 3, "geografia": 9, "ingles": 1, "redacao": 6, "artes": 4, "educacaofisica": 1, "filosofia": 2}, "faltas": 29}, "1": {"disciplinas": {"matematica": 10, "historia": 5, "portugues": 6, "biologia": 0, "geografia": 7, "ingles": 9, "redacao": 1, "artes": 9, "educacaofisica": 6, "filosofia": 1}, "faltas": 11}, "2": {"disciplinas": {"matematica": 0, "historia": 4, "portugues": 0, "biologia": 8, "geografia": 8, "ingles": 7, "redacao": 0, "artes": 7, "educacaofisica": 3, "filosofia": 2}, "faltas": 32}, "3": {"disciplinas": {"matematica": 3, "historia": 2, "portugues": 8, "biologia": 5, "geografia": 4, "ingles": 9, "redacao": 5, "artes": 4, "educacaofisica": 10, "filosofia": 5}, "faltas": 9}}}, "idade": 15, "matricula": "65874859950", "nome": "Gonick Melody", "escola": "ALTIVO C\u00c9SAR", "cpf": "310.634.359-19", "pai_nome": "Vivia Jerman", "pai_cpf": "027.847.458-64", "mae_nome": "Wistrup Glassman", "mae_cpf": "933.113.150-06"}, {"id": 3, "ano": {"0": {"0": {"disciplinas": {"matematica": 9, "historia": 4, "portugues": 9, "biologia": 3, "geografia": 2, "ingles": 7, "redacao": 6, "artes": 5, "educacaofisica": 10, "filosofia": 8}, "faltas": 10}, "1": {"disciplinas": {"matematica": 1, "historia": 9, "portugues": 8, "biologia": 1, "geografia": 5, "ingles": 5, "redacao": 5, "artes": 1, "educacaofisica": 1, "filosofia": 3}, "faltas": 37}, "2": {"disciplinas": {"matematica": 7, "historia": 7, "portugues": 7, "biologia": 8, "geografia": 7, "ingles": 8, "redacao": 5, "artes": 7, "educacaofisica": 9, "filosofia": 10}, "faltas": 19}, "3": {"disciplinas": {"matematica": 1, "historia": 8, "portugues": 10, "biologia": 1, "geografia": 0, "ingles": 0, "redacao": 2, "artes": 1, "educacaofisica": 5, "filosofia": 2}, "faltas": 19}}}, "idade": 11, "matricula": "77370644600", "nome": "Brendis Okwu", "escola": "ANT\u00d4NIO VIEIRA DA ROCHA ", "cpf": "697.502.961-09", "pai_nome": "Rubin Lynda", "pai_cpf": "919.418.969-28", "mae_nome": "Pump Henka", "mae_cpf": "836.277.886-56"}, {"id": 4, "ano": {"0": {"0": {"disciplinas": {"matematica": 2, "historia": 8, "portugues": 4, "biologia": 4, "geografia": 2, "ingles": 4, "redacao": 10, "artes": 0, "educacaofisica": 4, "filosofia": 1}, "faltas": 1}, "1": {"disciplinas": {"matematica": 5, "historia": 5, "portugues": 9, "biologia": 1, "geografia": 6, "ingles": 0, "redacao": 9, "artes": 6, "educacaofisica": 4, "filosofia": 8}, "faltas": 15}, "2": {"disciplinas": {"matematica": 6, "historia": 6, "portugues": 5, "biologia": 5, "geografia": 8, "ingles": 3, "redacao": 3, "artes": 5, "educacaofisica": 6, "filosofia": 7}, "faltas": 0}, "3": {"disciplinas": {"matematica": 8, "historia": 2, "portugues": 3, "biologia": 1, "geografia": 7, "ingles": 6, "redacao": 3, "artes": 4, "educacaofisica": 4, "filosofia": 0}, "faltas": 34}}}, "idade": 14, "matricula": "91261701321", "nome": "Hallam Onfroi", "escola": "ADELINO MAGALH\u00c3ES", "cpf": "582.822.341-09", "pai_nome": "Goddart Mavilia", "pai_cpf": "974.064.565-81", "mae_nome": "Bricker McGinnis", "mae_cpf": "257.580.951-76"}, {"id": 5, "ano": {"0": {"0": {"disciplinas": {"matematica": 2, "historia": 1, "portugues": 2, "biologia": 4, "geografia": 9, "ingles": 10, "redacao": 7, "artes": 4, "educacaofisica": 3, "filosofia": 9}, "faltas": 40}, "1": {"disciplinas": {"matematica": 5, "historia": 5, "portugues": 1, "biologia": 8, "geografia": 9, "ingles": 2, "redacao": 10, "artes": 9, "educacaofisica": 3, "filosofia": 6}, "faltas": 16}, "2": {"disciplinas": {"matematica": 10, "historia": 2, "portugues": 1, "biologia": 10, "geografia": 5, "ingles": 0, "redacao": 0, "artes": 1, "educacaofisica": 4, "filosofia": 6}, "faltas": 7}, "3": {"disciplinas": {"matematica": 6, "historia": 7, "portugues": 2, "biologia": 0, "geografia": 1, "ingles": 2, "redacao": 7, "artes": 1, "educacaofisica": 3, "filosofia": 8}, "faltas": 4}}}, "idade": 17, "matricula": "97708943973", "nome": "Elbart Gower", "escola": "DJALMA COUTINHO DE OLIVEIRA", "cpf": "342.538.096-69", "pai_nome": "Gentes Denice", "pai_cpf": "228.350.121-09", "mae_nome": "Rohn Danie", "mae_cpf": "259.553.956-60"}, {"id": 6, "ano": {"0": {"0": {"disciplinas": {"matematica": 1, "historia": 0, "portugues": 2, "biologia": 3, "geografia": 6, "ingles": 1, "redacao": 3, "artes": 1, "educacaofisica": 0, "filosofia": 1}, "faltas": 37}, "1": {"disciplinas": {"matematica": 9, "historia": 10, "portugues": 2, "biologia": 5, "geografia": 9, "ingles": 10, "redacao": 4, "artes": 0, "educacaofisica": 6, "filosofia": 2}, "faltas": 15}, "2": {"disciplinas": {"matematica": 8, "historia": 5, "portugues": 9, "biologia": 4, "geografia": 4, "ingles": 4, "redacao": 8, "artes": 10, "educacaofisica": 2, "filosofia": 2}, "faltas": 32}, "3": {"disciplinas": {"matematica": 8, "historia": 0, "portugues": 0, "biologia": 9, "geografia": 1, "ingles": 2, "redacao": 4, "artes": 9, "educacaofisica": 6, "filosofia": 6}, "faltas": 10}}}, "idade": 13, "matricula": "34039108574", "nome": "Merrielle Dayle", "escola": "ALTIVO C\u00c9SAR", "cpf": "054.514.752-29", "pai_nome": "Shu Loredo", "pai_cpf": "858.350.349-46", "mae_nome": "Rubinstein Klug", "mae_cpf": "924.762.277-81"}, {"id": 7, "ano": {"0": {"0": {"disciplinas": {"matematica": 1, "historia": 3, "portugues": 2, "biologia": 10, "geografia": 5, "ingles": 4, "redacao": 0, "artes": 9, "educacaofisica": 4, "filosofia": 0}, "faltas": 7}, "1": {"disciplinas": {"matematica": 5, "historia": 1, "portugues": 2, "biologia": 4, "geografia": 7, "ingles": 4, "redacao": 2, "artes": 9, "educacaofisica": 9, "filosofia": 5}, "faltas": 6}, "2": {"disciplinas": {"matematica": 0, "historia": 6, "portugues": 8, "biologia": 7, "geografia": 9, "ingles": 7, "redacao": 6, "artes": 6, "educacaofisica": 10, "filosofia": 3}, "faltas": 3}, "3": {"disciplinas": {"matematica": 6, "historia": 2, "portugues": 0, "biologia": 8, "geografia": 3, "ingles": 9, "redacao": 6, "artes": 5, "educacaofisica": 1, "filosofia": 1}, "faltas": 36}}}, "idade": 18, "matricula": "83661727915", "nome": "Derek Sutton", "escola": "DR. ALBERTO FRANCISCO TORRES", "cpf": "686.651.636-62", "pai_nome": "Moorish Ruder", "pai_cpf": "376.548.295-15", "mae_nome": "Sams Fionnula", "mae_cpf": "185.349.535-20"}, {"id": 8, "ano": {"0": {"0": {"disciplinas": {"matematica": 2, "historia": 7, "portugues": 6, "biologia": 5, "geografia": 3, "ingles": 10, "redacao": 8, "artes": 1, "educacaofisica": 9, "filosofia": 3}, "faltas": 10}, "1": {"disciplinas": {"matematica": 7, "historia": 1, "portugues": 3, "biologia": 1, "geografia": 0, "ingles": 9, "redacao": 3, "artes": 2, "educacaofisica": 10, "filosofia": 2}, "faltas": 15}, "2": {"disciplinas": {"matematica": 9, "historia": 10, "portugues": 5, "biologia": 2, "geografia": 10, "ingles": 4, "redacao": 7, "artes": 8, "educacaofisica": 4, "filosofia": 7}, "faltas": 24}, "3": {"disciplinas": {"matematica": 10, "historia": 8, "portugues": 1, "biologia": 8, "geografia": 0, "ingles": 5, "redacao": 0, "artes": 10, "educacaofisica": 3, "filosofia": 5}, "faltas": 14}}}, "idade": 17, "matricula": "08778159172", "nome": "Lach Donnamarie", "escola": "DI\u00d3GENES RIBEIRO DE MENDON\u00c7A", "cpf": "305.195.758-57", "pai_nome": "Randell Thapa", "pai_cpf": "120.090.442-74", "mae_nome": "Jacobs Corilla", "mae_cpf": "380.328.890-86"}, {"id": 9, "ano": {"0": {"0": {"disciplinas": {"matematica": 1, "historia": 2, "portugues": 1, "biologia": 7, "geografia": 0, "ingles": 3, "redacao": 3, "artes": 5, "educacaofisica": 1, "filosofia": 9}, "faltas": 23}, "1": {"disciplinas": {"matematica": 0, "historia": 8, "portugues": 5, "biologia": 5, "geografia": 6, "ingles": 2, "redacao": 5, "artes": 7, "educacaofisica": 10, "filosofia": 5}, "faltas": 28}, "2": {"disciplinas": {"matematica": 7, "historia": 1, "portugues": 8, "biologia": 10, "geografia": 4, "ingles": 0, "redacao": 6, "artes": 3, "educacaofisica": 1, "filosofia": 6}, "faltas": 15}, "3": {"disciplinas": {"matematica": 7, "historia": 6, "portugues": 2, "biologia": 7, "geografia": 8, "ingles": 2, "redacao": 3, "artes": 8, "educacaofisica": 3, "filosofia": 1}, "faltas": 36}}}, "idade": 12, "matricula": "50284553840", "nome": "Pomeroy Lesko", "escola": "ERNANI MOREIRA FRANCO", "cpf": "205.013.674-97", "pai_nome": "Kersten Mirilla", "pai_cpf": "653.975.651-80", "mae_nome": "Raybourne Isidoro", "mae_cpf": "083.430.022-29"}]
+[
+  {
+    "id": 0,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 7,
+            "historia": 7,
+            "portugues": 8,
+            "biologia": 8,
+            "geografia": 6,
+            "ingles": 5,
+            "redacao": 4,
+            "artes": 10,
+            "educacaofisica": 6,
+            "filosofia": 8
+          },
+          "faltas": 12
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 9,
+            "historia": 2,
+            "portugues": 1,
+            "biologia": 6,
+            "geografia": 4,
+            "ingles": 8,
+            "redacao": 6,
+            "artes": 2,
+            "educacaofisica": 4,
+            "filosofia": 9
+          },
+          "faltas": 10
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 10,
+            "historia": 6,
+            "portugues": 10,
+            "biologia": 4,
+            "geografia": 9,
+            "ingles": 4,
+            "redacao": 6,
+            "artes": 10,
+            "educacaofisica": 5,
+            "filosofia": 7
+          },
+          "faltas": 27
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 7,
+            "historia": 7,
+            "portugues": 6,
+            "biologia": 9,
+            "geografia": 5,
+            "ingles": 6,
+            "redacao": 6,
+            "artes": 7,
+            "educacaofisica": 10,
+            "filosofia": 6
+          },
+          "faltas": 11
+        }
+      }
+    },
+    "idade": 18,
+    "matricula": "41139088181",
+    "nome": "GUILHERME BARSALI CARVALHO",
+    "escola": "AYRTON SENNA",
+    "cpf": "61317684982",
+    "pai_nome": "FERNANDO ANT\u00d4NIO BENTO DA SILVA",
+    "responsavel_cpf": "75152014793",
+    "mae_nome": "LUANA DA SILVA FERREIRA"
+  },
+  {
+    "id": 1,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 4,
+            "historia": 10,
+            "portugues": 4,
+            "biologia": 4,
+            "geografia": 3,
+            "ingles": 6,
+            "redacao": 5,
+            "artes": 8,
+            "educacaofisica": 2,
+            "filosofia": 5
+          },
+          "faltas": 34
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 0,
+            "historia": 9,
+            "portugues": 9,
+            "biologia": 10,
+            "geografia": 10,
+            "ingles": 5,
+            "redacao": 5,
+            "artes": 4,
+            "educacaofisica": 7,
+            "filosofia": 6
+          },
+          "faltas": 31
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 5,
+            "historia": 9,
+            "portugues": 1,
+            "biologia": 0,
+            "geografia": 9,
+            "ingles": 3,
+            "redacao": 2,
+            "artes": 8,
+            "educacaofisica": 8,
+            "filosofia": 7
+          },
+          "faltas": 27
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 6,
+            "historia": 0,
+            "portugues": 6,
+            "biologia": 6,
+            "geografia": 8,
+            "ingles": 7,
+            "redacao": 6,
+            "artes": 2,
+            "educacaofisica": 9,
+            "filosofia": 8
+          },
+          "faltas": 20
+        }
+      }
+    },
+    "idade": 17,
+    "matricula": "89609805108",
+    "nome": "GIOVANA PE\u00c7ANHA WITCZAK CELSO",
+    "escola": "DR. ALBERTO FRANCISCO TORRES",
+    "cpf": "89013029930",
+    "pai_nome": "GABRIEL DE FREITAS R. CASTELO BRANCO",
+    "responsavel_cpf": "12047795974",
+    "mae_nome": "CATARINA BRAGA YUNES RIGUETTO"
+  },
+  {
+    "id": 2,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 1,
+            "historia": 6,
+            "portugues": 0,
+            "biologia": 0,
+            "geografia": 6,
+            "ingles": 9,
+            "redacao": 4,
+            "artes": 0,
+            "educacaofisica": 1,
+            "filosofia": 2
+          },
+          "faltas": 2
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 5,
+            "historia": 0,
+            "portugues": 3,
+            "biologia": 0,
+            "geografia": 3,
+            "ingles": 2,
+            "redacao": 6,
+            "artes": 7,
+            "educacaofisica": 1,
+            "filosofia": 2
+          },
+          "faltas": 13
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 0,
+            "historia": 6,
+            "portugues": 2,
+            "biologia": 9,
+            "geografia": 0,
+            "ingles": 3,
+            "redacao": 8,
+            "artes": 8,
+            "educacaofisica": 1,
+            "filosofia": 0
+          },
+          "faltas": 16
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 4,
+            "historia": 8,
+            "portugues": 2,
+            "biologia": 6,
+            "geografia": 7,
+            "ingles": 2,
+            "redacao": 5,
+            "artes": 0,
+            "educacaofisica": 0,
+            "filosofia": 2
+          },
+          "faltas": 29
+        }
+      }
+    },
+    "idade": 17,
+    "matricula": "93572111528",
+    "nome": "GISELDA CRISTINA FERREIRA",
+    "escola": "ERNANI MOREIRA FRANCO",
+    "cpf": "49386899957",
+    "pai_nome": "BRENNO SABATINI VIEIRA SOUTO",
+    "responsavel_cpf": "58953106729",
+    "mae_nome": "TATIANE CRISTINA DE SOUZA"
+  },
+  {
+    "id": 3,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 1,
+            "historia": 5,
+            "portugues": 6,
+            "biologia": 4,
+            "geografia": 3,
+            "ingles": 10,
+            "redacao": 7,
+            "artes": 1,
+            "educacaofisica": 2,
+            "filosofia": 1
+          },
+          "faltas": 22
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 3,
+            "historia": 5,
+            "portugues": 10,
+            "biologia": 10,
+            "geografia": 6,
+            "ingles": 10,
+            "redacao": 3,
+            "artes": 8,
+            "educacaofisica": 6,
+            "filosofia": 8
+          },
+          "faltas": 4
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 0,
+            "historia": 10,
+            "portugues": 5,
+            "biologia": 6,
+            "geografia": 10,
+            "ingles": 8,
+            "redacao": 4,
+            "artes": 7,
+            "educacaofisica": 0,
+            "filosofia": 3
+          },
+          "faltas": 37
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 10,
+            "historia": 2,
+            "portugues": 8,
+            "biologia": 5,
+            "geografia": 5,
+            "ingles": 6,
+            "redacao": 3,
+            "artes": 10,
+            "educacaofisica": 2,
+            "filosofia": 7
+          },
+          "faltas": 33
+        }
+      }
+    },
+    "idade": 17,
+    "matricula": "30460988808",
+    "nome": "VINICIUS CARLOS SILVA",
+    "escola": "DI\u00d3GENES RIBEIRO DE MENDON\u00c7A",
+    "cpf": "47605157630",
+    "pai_nome": "RAFAEL FELIPE DOS SANTOS",
+    "responsavel_cpf": "62439938688",
+    "mae_nome": "MARIA CLARA AMARAL MENESCAL CONDE"
+  },
+  {
+    "id": 4,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 3,
+            "historia": 10,
+            "portugues": 2,
+            "biologia": 3,
+            "geografia": 0,
+            "ingles": 5,
+            "redacao": 6,
+            "artes": 1,
+            "educacaofisica": 5,
+            "filosofia": 6
+          },
+          "faltas": 3
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 2,
+            "historia": 5,
+            "portugues": 3,
+            "biologia": 10,
+            "geografia": 0,
+            "ingles": 4,
+            "redacao": 8,
+            "artes": 3,
+            "educacaofisica": 5,
+            "filosofia": 6
+          },
+          "faltas": 15
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 5,
+            "historia": 0,
+            "portugues": 7,
+            "biologia": 5,
+            "geografia": 10,
+            "ingles": 4,
+            "redacao": 9,
+            "artes": 0,
+            "educacaofisica": 7,
+            "filosofia": 2
+          },
+          "faltas": 21
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 6,
+            "historia": 7,
+            "portugues": 5,
+            "biologia": 8,
+            "geografia": 3,
+            "ingles": 2,
+            "redacao": 2,
+            "artes": 0,
+            "educacaofisica": 7,
+            "filosofia": 8
+          },
+          "faltas": 10
+        }
+      }
+    },
+    "idade": 11,
+    "matricula": "67089858103",
+    "nome": "GABRIELA BRAND\u00c3O PIOLLI",
+    "escola": "DJALMA COUTINHO DE OLIVEIRA",
+    "cpf": "35077380317",
+    "pai_nome": "MATHEUS BARLETTA VILLELA DE FIGUEIREDO",
+    "responsavel_cpf": "27787807008",
+    "mae_nome": "ANA LUIZA REINA SANTOS"
+  },
+  {
+    "id": 5,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 7,
+            "historia": 3,
+            "portugues": 1,
+            "biologia": 6,
+            "geografia": 8,
+            "ingles": 10,
+            "redacao": 8,
+            "artes": 2,
+            "educacaofisica": 5,
+            "filosofia": 6
+          },
+          "faltas": 30
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 2,
+            "historia": 6,
+            "portugues": 9,
+            "biologia": 0,
+            "geografia": 9,
+            "ingles": 4,
+            "redacao": 2,
+            "artes": 3,
+            "educacaofisica": 3,
+            "filosofia": 5
+          },
+          "faltas": 27
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 10,
+            "historia": 3,
+            "portugues": 4,
+            "biologia": 1,
+            "geografia": 2,
+            "ingles": 2,
+            "redacao": 10,
+            "artes": 2,
+            "educacaofisica": 3,
+            "filosofia": 0
+          },
+          "faltas": 6
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 2,
+            "historia": 1,
+            "portugues": 9,
+            "biologia": 8,
+            "geografia": 7,
+            "ingles": 1,
+            "redacao": 9,
+            "artes": 6,
+            "educacaofisica": 0,
+            "filosofia": 10
+          },
+          "faltas": 22
+        }
+      }
+    },
+    "idade": 18,
+    "matricula": "78653370277",
+    "nome": "BEATRIZ MEDEIROS ARAUJO",
+    "escola": "PROF. HOR\u00c1CIO PACHECO",
+    "cpf": "43479693504",
+    "pai_nome": "BRENO MATTOS DE CASTRO",
+    "responsavel_cpf": "36282756103",
+    "mae_nome": "BEATRIZ MEDEIROS ARAUJO"
+  },
+  {
+    "id": 6,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 1,
+            "historia": 1,
+            "portugues": 4,
+            "biologia": 6,
+            "geografia": 3,
+            "ingles": 10,
+            "redacao": 10,
+            "artes": 5,
+            "educacaofisica": 9,
+            "filosofia": 7
+          },
+          "faltas": 0
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 0,
+            "historia": 0,
+            "portugues": 5,
+            "biologia": 8,
+            "geografia": 10,
+            "ingles": 2,
+            "redacao": 10,
+            "artes": 9,
+            "educacaofisica": 0,
+            "filosofia": 3
+          },
+          "faltas": 27
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 8,
+            "historia": 6,
+            "portugues": 9,
+            "biologia": 4,
+            "geografia": 9,
+            "ingles": 10,
+            "redacao": 9,
+            "artes": 6,
+            "educacaofisica": 7,
+            "filosofia": 1
+          },
+          "faltas": 5
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 0,
+            "historia": 7,
+            "portugues": 0,
+            "biologia": 8,
+            "geografia": 7,
+            "ingles": 8,
+            "redacao": 8,
+            "artes": 7,
+            "educacaofisica": 7,
+            "filosofia": 3
+          },
+          "faltas": 18
+        }
+      }
+    },
+    "idade": 10,
+    "matricula": "94923282240",
+    "nome": "GIOVANA N P SCHMIDT DE MIRANDA",
+    "escola": "DJALMA COUTINHO DE OLIVEIRA",
+    "cpf": "77300571158",
+    "pai_nome": "DEN\u00cdLSON ARA\u00daJO SERRA",
+    "responsavel_cpf": "34561098062",
+    "mae_nome": "DANNY HIDEKI ITOKAZU"
+  },
+  {
+    "id": 7,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 6,
+            "historia": 6,
+            "portugues": 5,
+            "biologia": 4,
+            "geografia": 5,
+            "ingles": 9,
+            "redacao": 10,
+            "artes": 4,
+            "educacaofisica": 6,
+            "filosofia": 6
+          },
+          "faltas": 36
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 9,
+            "historia": 10,
+            "portugues": 6,
+            "biologia": 6,
+            "geografia": 10,
+            "ingles": 6,
+            "redacao": 3,
+            "artes": 9,
+            "educacaofisica": 5,
+            "filosofia": 3
+          },
+          "faltas": 12
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 3,
+            "historia": 8,
+            "portugues": 5,
+            "biologia": 0,
+            "geografia": 1,
+            "ingles": 5,
+            "redacao": 0,
+            "artes": 5,
+            "educacaofisica": 5,
+            "filosofia": 10
+          },
+          "faltas": 6
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 4,
+            "historia": 3,
+            "portugues": 8,
+            "biologia": 5,
+            "geografia": 8,
+            "ingles": 8,
+            "redacao": 4,
+            "artes": 2,
+            "educacaofisica": 5,
+            "filosofia": 0
+          },
+          "faltas": 35
+        }
+      }
+    },
+    "idade": 17,
+    "matricula": "75482352757",
+    "nome": "ANDR\u00c9IA SOUSA BEZERRA",
+    "escola": "PROF. HOR\u00c1CIO PACHECO",
+    "cpf": "63453740670",
+    "pai_nome": "GABRIEL MATEUS AMARAL VIDAL",
+    "responsavel_cpf": "37007604773",
+    "mae_nome": "PRISCILA CRISTINA"
+  },
+  {
+    "id": 8,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 8,
+            "historia": 7,
+            "portugues": 10,
+            "biologia": 6,
+            "geografia": 2,
+            "ingles": 2,
+            "redacao": 5,
+            "artes": 2,
+            "educacaofisica": 5,
+            "filosofia": 7
+          },
+          "faltas": 34
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 8,
+            "historia": 4,
+            "portugues": 8,
+            "biologia": 4,
+            "geografia": 10,
+            "ingles": 5,
+            "redacao": 5,
+            "artes": 3,
+            "educacaofisica": 10,
+            "filosofia": 2
+          },
+          "faltas": 18
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 7,
+            "historia": 9,
+            "portugues": 5,
+            "biologia": 5,
+            "geografia": 1,
+            "ingles": 9,
+            "redacao": 1,
+            "artes": 2,
+            "educacaofisica": 10,
+            "filosofia": 1
+          },
+          "faltas": 31
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 1,
+            "historia": 6,
+            "portugues": 0,
+            "biologia": 0,
+            "geografia": 7,
+            "ingles": 6,
+            "redacao": 9,
+            "artes": 5,
+            "educacaofisica": 5,
+            "filosofia": 0
+          },
+          "faltas": 34
+        }
+      }
+    },
+    "idade": 10,
+    "matricula": "12260598056",
+    "nome": "ROG\u00c9RIO TIM\u00d3TEO TINE",
+    "escola": "ERNANI MOREIRA FRANCO",
+    "cpf": "95080431997",
+    "pai_nome": "ARIEL SP\u00c1 DE OLIVEIRA",
+    "responsavel_cpf": "91220597414",
+    "mae_nome": "ANA CAROLINA DE O GAIA SOARES"
+  },
+  {
+    "id": 9,
+    "ano": {
+      "0": {
+        "0": {
+          "disciplinas": {
+            "matematica": 4,
+            "historia": 3,
+            "portugues": 1,
+            "biologia": 7,
+            "geografia": 2,
+            "ingles": 7,
+            "redacao": 6,
+            "artes": 9,
+            "educacaofisica": 3,
+            "filosofia": 0
+          },
+          "faltas": 9
+        },
+        "1": {
+          "disciplinas": {
+            "matematica": 10,
+            "historia": 8,
+            "portugues": 3,
+            "biologia": 2,
+            "geografia": 7,
+            "ingles": 1,
+            "redacao": 8,
+            "artes": 4,
+            "educacaofisica": 7,
+            "filosofia": 2
+          },
+          "faltas": 12
+        },
+        "2": {
+          "disciplinas": {
+            "matematica": 6,
+            "historia": 8,
+            "portugues": 0,
+            "biologia": 10,
+            "geografia": 6,
+            "ingles": 1,
+            "redacao": 8,
+            "artes": 2,
+            "educacaofisica": 0,
+            "filosofia": 10
+          },
+          "faltas": 0
+        },
+        "3": {
+          "disciplinas": {
+            "matematica": 10,
+            "historia": 6,
+            "portugues": 9,
+            "biologia": 0,
+            "geografia": 3,
+            "ingles": 8,
+            "redacao": 6,
+            "artes": 9,
+            "educacaofisica": 9,
+            "filosofia": 10
+          },
+          "faltas": 13
+        }
+      }
+    },
+    "idade": 11,
+    "matricula": "34820094904",
+    "nome": "KAIO AUGUSTO BUENO",
+    "escola": "ANT\u00d4NIO VIEIRA DA ROCHA ",
+    "cpf": "89543958050",
+    "pai_nome": "PEDRO CHANGUIR SARAPECK SILVA PINTO",
+    "responsavel_cpf": "63957834082",
+    "mae_nome": "FERNANDA MARQUES DOS REIS BRAGA"
+  }
+]

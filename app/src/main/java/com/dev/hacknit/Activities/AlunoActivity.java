@@ -1,10 +1,12 @@
 package com.dev.hacknit.Activities;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
 import com.dev.hacknit.Database.Database;
 import com.dev.hacknit.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class AlunoActivity extends AppCompatActivity {
 
@@ -27,7 +29,7 @@ public class AlunoActivity extends AppCompatActivity {
        txtNomeAluno.setText(Database.dataModel.getNome());
         txtEscolaAluno.setText(Database.dataModel.getEscola());
        txtAlunoIMEP.setText(Database.dataModel.getMatricula());
-       txtCPFResponsavel.setText(Database.dataModel.getMaeCpf());
+        txtCPFResponsavel.setText(Database.dataModel.getResponsavelCpf());
     }
 
     @Override

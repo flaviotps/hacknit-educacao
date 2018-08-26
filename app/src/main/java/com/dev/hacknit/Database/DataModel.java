@@ -33,28 +33,16 @@ public class DataModel {
         return mae;
     }
 
-    public String getPaiCpf() {
-        return paiCpf;
-    }
 
-    public String getMaeCpf() {
-        String finalStr = maeCpf.replace(".","").replace("-","");
-        return finalStr;
-    }
+    String responsavelCpf;
 
     public List<Ano> getAnoList() {
         return anoList;
     }
 
-        public Bimestre getBimestreByID(int id){
-
-            for(int i=0;i<anoList.size();i++){
-                for(int j=0;j<anoList.get(i).bimestreList.size();j++){
-                  return anoList.get(i).bimestreList.get(id);
-                }
-            }
-            return null;
-        }
+    public String getResponsavelCpf() {
+        return responsavelCpf;
+    }
 
     public String getMatematica(){
         String s = "";
@@ -159,8 +147,10 @@ public class DataModel {
     String cpf;
     String pai;
     String mae;
-    String paiCpf;
-    String maeCpf;
+
+    public Bimestre getBimestreByID(int id) {
+        return anoList.get(id).bimestreList.get(0);
+    }
     String matricula;
 
     public String getMatricula() {

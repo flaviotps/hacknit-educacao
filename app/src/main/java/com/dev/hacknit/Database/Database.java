@@ -1,14 +1,18 @@
 package com.dev.hacknit.Database;
 
 import android.app.Activity;
+import android.util.Log;
 import android.widget.Toast;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
 import es.dmoral.toasty.Toasty;
 
 public class Database {
@@ -23,10 +27,11 @@ public class Database {
     }
 
     public DataModel getDataModel(String CPF, String IMEP){
-
+        Log.i("TEST", CPF + "/" + IMEP);
         for (DataModel d:dataModels) {
             if(d.getMatricula().trim().equals(IMEP)){
-                if(d.getMaeCpf().equals(CPF)){
+                Log.i("cpf", d.getResponsavelCpf());
+                if (d.getResponsavelCpf().equals(CPF)) {
                     dataModel = d;
                     return d;
                 }else{
@@ -54,14 +59,14 @@ public class Database {
             DataModel data = new DataModel();
             data.id = object.getInt("id");
             data.idade = object.getInt("idade");
+            data.matricula = object.getString("matricula");
             data.nome = object.getString("nome");
             data.escola = object.getString("escola");
             data.cpf = object.getString("cpf");
             data.pai = object.getString("pai_nome");
-            data.paiCpf = object.getString("pai_cpf");
+            data.responsavelCpf = object.getString("responsavel_cpf");
             data.mae = object.getString("mae_nome");
-            data.maeCpf = object.getString("mae_cpf");
-            data.matricula = object.getString("matricula");
+
 
             for(int j=0;j<=3;j++) {
 

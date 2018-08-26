@@ -28,7 +28,7 @@ public class Boletim4Fragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_boletim4, container, false);
 
-        Bimestre bi = Database.dataModel.getBimestreByID(0);
+        Bimestre bi = Database.dataModel.getBimestreByID(3);
 
         txt1 = v.findViewById(R.id.txtBoletimArtes4);
         txt1.setText(bi.getNotaAsText(bi.getArtes()));
