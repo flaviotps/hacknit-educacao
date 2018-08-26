@@ -20,6 +20,8 @@ Com esse sistema integrado no cotidiano das escolas, temos certeza que iremos au
 
 - [Material Design](https://material.io/design/)
 - [MP Android Chart](https://github.com/PhilJay/MPAndroidChart)
+- [Toasty](https://github.com/GrenderG/Toasty)
+- [SmartTabLayout](https://github.com/ogaclejapan/SmartTabLayout)
 
 ## APK
 
