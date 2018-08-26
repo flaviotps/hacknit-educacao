@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.Boletim1Fragment">
+    tools:context=".Fragments.Boletim4Fragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -43,7 +42,7 @@
                     android:layout_marginTop="32dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
-                    android:text="1° Bimestre"
+                    android:text="4° Bimestre"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -224,10 +223,10 @@
                     android:text="Redação"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toStartOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/textView16" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
                 <TextView
-                    android:id="@+id/txtBoletimArtes1"
+                    android:id="@+id/txtBoletimArtes4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -239,7 +238,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <TextView
-                    android:id="@+id/txtBoletimBiologia1"
+                    android:id="@+id/txtBoletimBiologia4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -248,10 +247,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimArtes1" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimArtes4" />
 
                 <TextView
-                    android:id="@+id/txtBoletimEdFis1"
+                    android:id="@+id/txtBoletimEdFis4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -260,10 +259,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimBiologia1" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimBiologia4" />
 
                 <TextView
-                    android:id="@+id/txtBoletimFilosofia1"
+                    android:id="@+id/txtBoletimFilosofia4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -272,10 +271,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimEdFis1" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimEdFis4" />
 
                 <TextView
-                    android:id="@+id/txtBoletimGeog1"
+                    android:id="@+id/txtBoletimGeog4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -284,10 +283,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimFilosofia1" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimFilosofia4" />
 
                 <TextView
-                    android:id="@+id/txtBoletimHistoria1"
+                    android:id="@+id/txtBoletimHistoria4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -296,10 +295,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimGeog1" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimGeog4" />
 
                 <TextView
-                    android:id="@+id/txtBoletimIng1"
+                    android:id="@+id/txtBoletimIng4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -308,10 +307,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimHistoria1" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimHistoria4" />
 
                 <TextView
-                    android:id="@+id/txtBoletimMatematica1"
+                    android:id="@+id/txtBoletimMatematica4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -320,10 +319,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimIng1" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimIng4" />
 
                 <TextView
-                    android:id="@+id/txtBoletimPort1"
+                    android:id="@+id/txtBoletimPort4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -332,10 +331,10 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimMatematica1" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimMatematica4" />
 
                 <TextView
-                    android:id="@+id/txtBoletimRedacao1"
+                    android:id="@+id/txtBoletimRedacao4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -344,7 +343,7 @@
                     android:text="Nota"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/view"
-                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimPort1" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtBoletimPort4" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
