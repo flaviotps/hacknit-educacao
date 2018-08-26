@@ -16,13 +16,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView cardView3;
     private CardView cardView4;
 
-    public Database database;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        database = new Database(this);
 
         cardView1 = findViewById(R.id.cardView1);
         cardView2 = findViewById(R.id.cardView2);
@@ -35,12 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cardView4.setOnClickListener(this);
 
 
-        try {
-            database.readItems(R.raw.dados);
-        } catch (JSONException e) {
-            e.printStackTrace();
 
-        }
     }
 
     @Override
