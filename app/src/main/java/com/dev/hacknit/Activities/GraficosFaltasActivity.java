@@ -34,7 +34,7 @@ public class GraficosFaltasActivity extends AppCompatActivity {
 
 
         for(int i=0;i<Database.dataModels.get(0).getAnoList().size();i++){
-            chartModels.add(new ChartModel(Database.dataModels.get(0).getAnoList().get(i).getBimestreList().get(0).getFaltasAsDataString(),"Falta, Presensença", Constants.CHART_TYPE_PIE,"Presença ("+(i+1)+"• semestre)"));
+            chartModels.add(new ChartModel(Database.dataModel.getAnoList().get(i).getBimestreList().get(0).getFaltasAsDataString(),"Falta, Presensença", Constants.CHART_TYPE_PIE,"Presença ("+(i+1)+"• semestre)"));
 
         }
 

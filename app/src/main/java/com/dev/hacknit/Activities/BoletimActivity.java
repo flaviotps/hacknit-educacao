@@ -4,10 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 
+import com.dev.hacknit.Database.Database;
+import com.dev.hacknit.Fragments.Boletim1Fragment;
+import com.dev.hacknit.Fragments.Boletim2Fragment;
 import com.dev.hacknit.R;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
+
 
 public class BoletimActivity extends AppCompatActivity {
 

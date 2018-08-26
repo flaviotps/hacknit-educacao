@@ -2,10 +2,16 @@ package com.dev.hacknit.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
+import com.dev.hacknit.Database.Database;
 import com.dev.hacknit.R;
 
 public class AlunoActivity extends AppCompatActivity {
 
+
+    private TextView txtCPFResponsavel,txtNomeAluno,txtEscolaAluno,txtAlunoIMEP;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -13,6 +19,17 @@ public class AlunoActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+       txtNomeAluno = findViewById(R.id.txtAlunoNome);
+       txtEscolaAluno = findViewById(R.id.txtAlunoEscola);
+       txtAlunoIMEP = findViewById(R.id.txtAlunoIMEP);
+
+       txtCPFResponsavel = findViewById(R.id.txtCPFresponsavel);
+
+       txtNomeAluno.setText(Database.dataModel.getNome());
+        txtEscolaAluno.setText(Database.dataModel.getEscola());
+       txtAlunoIMEP.setText(Database.dataModel.getMatricula());
+       txtCPFResponsavel.setText(Database.dataModel.getMaeCpf());
     }
 
 
@@ -21,4 +38,6 @@ public class AlunoActivity extends AppCompatActivity {
         onBackPressed();
         return true;
     }
+
+
 }

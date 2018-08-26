@@ -18,6 +18,7 @@ public class Database {
 
     private Activity activity;
     public static List<DataModel> dataModels;
+    public static DataModel dataModel;
 
     public Database(Activity activity) {
         this.activity = activity;
@@ -30,15 +31,9 @@ public class Database {
             if(d.getMatricula().trim().equals(IMEP)){
 
                 if(d.getMaeCpf().equals(CPF)){
+                    dataModel = d;
                     return d;
-                }else{
-                    Toast.makeText(activity,"SENHA INVALIDA",Toast.LENGTH_SHORT).show();
                 }
-
-
-            }else{
-                Toast.makeText(activity,"IMEP INVALIDO",Toast.LENGTH_SHORT).show();
-
             }
         }
         return null;
