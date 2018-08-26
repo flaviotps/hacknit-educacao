@@ -60,6 +60,6 @@ public class Bimestre{
     public int faltas;
 
     public String getFaltasAsDataString() {
-        return "1,"+(60-faltas)+";2,"+faltas+";";
+        return "1,"+(faltas)+";2,"+(60-faltas)+";";
     }
 }

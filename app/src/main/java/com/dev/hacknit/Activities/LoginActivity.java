@@ -4,12 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
+
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import com.dev.hacknit.Database.DataModel;
 import com.dev.hacknit.Database.Database;
 import com.dev.hacknit.R;
 import com.google.android.material.textfield.TextInputEditText;
@@ -39,7 +38,6 @@ public class LoginActivity extends AppCompatActivity {
 
         }
 
-
         getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         btnLogin = findViewById(R.id.btnLogar);
@@ -55,7 +53,4 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
-
-
-
 }

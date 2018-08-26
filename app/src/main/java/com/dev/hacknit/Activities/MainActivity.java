@@ -5,9 +5,7 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import com.dev.hacknit.Database.Database;
 import com.dev.hacknit.R;
-import org.json.JSONException;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -16,13 +14,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView cardView3;
     private CardView cardView4;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         cardView1 = findViewById(R.id.cardView1);
         cardView2 = findViewById(R.id.cardView2);
         cardView3 = findViewById(R.id.cardView3);
@@ -32,9 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cardView2.setOnClickListener(this);
         cardView3.setOnClickListener(this);
         cardView4.setOnClickListener(this);
-
-
-
     }
 
     @Override

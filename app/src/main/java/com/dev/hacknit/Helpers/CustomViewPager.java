@@ -44,6 +44,4 @@ public class CustomViewPager extends ViewPager {
             return false;
         }
     }
-
-
 }

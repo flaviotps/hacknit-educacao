@@ -1,8 +1,5 @@
 package com.dev.hacknit.Database;
 
-
-
-
 import com.dev.hacknit.Helpers.Constants;
 import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.data.PieEntry;
@@ -18,13 +15,8 @@ public class ChartModel {
     public int Type;
     public String Title;
 
-
-
     public int POSITION_X = 0;
     public int POSITION_VALUE = 1;
-    public int POSITION_COLOR = 2;
-
-
 
     public ChartModel(String data, String label, int type, String title) {
         Data = data;
@@ -79,8 +71,6 @@ public class ChartModel {
         }
         return entries;
     }
-
-
 }
 
 
