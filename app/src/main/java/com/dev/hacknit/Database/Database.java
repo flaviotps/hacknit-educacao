@@ -1,18 +1,15 @@
 package com.dev.hacknit.Database;
 
-
 import android.app.Activity;
-import android.util.Log;
 import android.widget.Toast;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import es.dmoral.toasty.Toasty;
 
 public class Database {
 
@@ -29,11 +26,17 @@ public class Database {
 
         for (DataModel d:dataModels) {
             if(d.getMatricula().trim().equals(IMEP)){
-
                 if(d.getMaeCpf().equals(CPF)){
                     dataModel = d;
                     return d;
+                }else{
+                    Toasty.error(activity, "A senha digitada está incorreta!", Toast.LENGTH_SHORT, true).show();
+                    break;
                 }
+            }
+            else{
+                Toasty.error(activity, "O número de matrícula não existe ou não foi encontrado.", Toast.LENGTH_SHORT, true).show();
+                break;
             }
         }
         return null;
@@ -66,7 +69,6 @@ public class Database {
                Ano ano = new Ano();
                ano.index = j;
 
-
                Bimestre bi = new Bimestre();
                bi.faltas = object.getJSONObject("ano").getJSONObject("0").getJSONObject(String.valueOf(j)).getInt("faltas");
                bi.matematica = disc.getInt("matematica");
@@ -83,11 +85,7 @@ public class Database {
                ano.bimestreList.add(bi);
                data.anoList.add(ano);
                dataModels.add(data);
-
             }
-
-
         }
-
     }
 }

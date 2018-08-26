@@ -29,20 +29,13 @@ public class GraficosFaltasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_grafico_notas);
         chartModels = new ArrayList<>();
 
-
         getSupportActionBar().setTitle("Resumo de faltas");
 
-
         for(int i=0;i<Database.dataModels.get(0).getAnoList().size();i++){
-            chartModels.add(new ChartModel(Database.dataModel.getAnoList().get(i).getBimestreList().get(0).getFaltasAsDataString(),"Falta, Presensença", Constants.CHART_TYPE_PIE,"Presença ("+(i+1)+"• semestre)"));
+            chartModels.add(new ChartModel(Database.dataModel.getAnoList().get(i).getBimestreList().get(0).getFaltasAsDataString(),"Falta, Presença", Constants.CHART_TYPE_PIE,"Presença ("+(i+1)+"• bimestre)"));
 
         }
 
-
-
-
-
-        //////
         chartAdapter = new ChartAdapter(chartModels);
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView = findViewById(R.id.Chart1Recycler);
@@ -50,14 +43,9 @@ public class GraficosFaltasActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(chartAdapter);
 
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-
-
     }
-
-
 
     @Override
     public boolean onSupportNavigateUp() {

@@ -1,8 +1,5 @@
 package com.dev.hacknit.Database;
 
-
-
-
 import com.dev.hacknit.Helpers.Constants;
 import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.data.PieEntry;
@@ -18,13 +15,8 @@ public class ChartModel {
     public int Type;
     public String Title;
 
-
-
     public int POSITION_X = 0;
     public int POSITION_VALUE = 1;
-    public int POSITION_COLOR = 2;
-
-
 
     public ChartModel(String data, String label, int type, String title) {
         Data = data;
@@ -47,6 +39,21 @@ public class ChartModel {
         s = s.replace(".", "");
         return Float.valueOf(s);
 
+    }
+
+    public float getMedia() {
+
+        String[] DataArray = Data.split(";");
+        float sum = 0;
+
+        for (int i = 0; i < DataArray.length; i++) {
+
+            String[] BarInfo = DataArray[i].split(",");
+            float BarValue = StringToFloat(BarInfo[POSITION_VALUE]);
+            sum += BarValue;
+        }
+
+        return sum / DataArray.length;
     }
 
     public int getChartType() {
@@ -79,10 +86,7 @@ public class ChartModel {
         }
         return entries;
     }
-
-
 }
-
 
 
 

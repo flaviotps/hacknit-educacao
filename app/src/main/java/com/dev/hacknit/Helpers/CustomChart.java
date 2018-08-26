@@ -1,6 +1,8 @@
 package com.dev.hacknit.Helpers;
 
 import android.graphics.Color;
+import android.view.View;
+
 import com.dev.hacknit.Database.ChartModel;
 import com.github.mikephil.charting.components.AxisBase;
 import com.github.mikephil.charting.components.Legend;
@@ -15,6 +17,7 @@ import com.github.mikephil.charting.data.PieEntry;
 import com.github.mikephil.charting.formatter.IAxisValueFormatter;
 import com.github.mikephil.charting.formatter.IValueFormatter;
 import com.github.mikephil.charting.utils.ViewPortHandler;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,13 +47,14 @@ public class CustomChart {
 
         public static void CreateBarChart(ChartAdapter.BarViewHolder barViewHolder, ChartModel chartModel) {
 
-
+            if (chartModel.getMedia() < 6.0f) {
+                barViewHolder.Info.setVisibility(View.VISIBLE);
+                barViewHolder.Info.setText("O aluno precisa de reforço em " + chartModel.Title.toLowerCase());
+            }
+            // barViewHolder.Info.
             barViewHolder.Title.setText(chartModel.Title);
-            barViewHolder.Chart.getDescription().setText(empty);  // Hide the description
-            // chart.getAxisLeft().setDrawLabels(false);
-            // chart.getAxisRight().setDrawLabels(false);
+            barViewHolder.Chart.getDescription().setText(empty);
             barViewHolder.Chart.getXAxis().setDrawLabels(false);
-            //chart.getLegend().setEnabled(false);
 
             barViewHolder.Chart.setPinchZoom(false);
             barViewHolder.Chart.setScaleEnabled(true);
@@ -59,15 +63,13 @@ public class CustomChart {
 
             barViewHolder.Chart.getAxisRight().setEnabled(false);
             YAxis leftAxis = barViewHolder.Chart.getAxisLeft();
-            //leftAxis.setValueFormatter(new LargeValueFormatter("GB") );
+
             leftAxis.setDrawGridLines(true);
             leftAxis.setSpaceTop(8f);
             leftAxis.setAxisMinimum(0f);
 
-
             BarDataSet dataSet = new BarDataSet(chartModel.<BarEntry>getChartData(), chartModel.Label);
             dataSet.setColors(RandomColor());
-
 
             BarData data = new BarData(dataSet);
             data.setBarWidth(0.9f); // set custom bar width
@@ -76,7 +78,6 @@ public class CustomChart {
             barViewHolder.Chart.setFitBars(true); // make the x-axis fit exactly all bars
             barViewHolder.Chart.invalidate(); // refresh
         }
-
 
         private static List<Integer> RandomColor() {
 
@@ -89,20 +90,17 @@ public class CustomChart {
             int cor2 = Color.parseColor("#47c664"); //verde
             colors.add(cor2);
 
-            int cor3 = Color.parseColor("#dc3545"); //azul
+            int cor3 = Color.parseColor("#dc3545"); //vermelho-escuro
             colors.add(cor3);
 
             int cor4 = Color.parseColor("#7b45dd"); //roxo
             colors.add(cor4);
-
-
 
             return colors;
 
         }
 
         public static void CreatePieChart(ChartAdapter.PieViewHolder pieViewHolder, ChartModel chartModel) {
-
 
             // configure pie chart
             int colorBlack = Color.parseColor("#000000");
@@ -121,7 +119,6 @@ public class CustomChart {
             pieViewHolder.Chart.setRotationAngle(0);
             pieViewHolder.Chart.setRotationEnabled(true);
 
-
             PieDataSet set = new PieDataSet(chartModel.<PieEntry>getChartData(), empty);
             PieData data = new PieData(set);
             data.setValueFormatter(new DayFormmater());
@@ -129,25 +126,15 @@ public class CustomChart {
             data.setValueTextSize(14f);
             //  data.setValueTextColor(Color.GRAY);
 
-
             set.setColors(RandomColor());
-
 
             pieViewHolder.Chart.setData(data);
 
             // undo all highlights
             pieViewHolder.Chart.highlightValues(null);
 
-
             // customize legends
             Legend l = pieViewHolder.Chart.getLegend();
-
-            //l.setXEntrySpace(7);
-            // l.setYEntrySpace(5);
-            //l.setVerticalAlignment(Legend.LegendVerticalAlignment.CENTER);
-            //l.setHorizontalAlignment(Legend.LegendHorizontalAlignment.RIGHT);
-            //l.setOrientation(Legend.LegendOrientation.VERTICAL);
-
 
             data.setValueTextColor(Color.BLACK);
             set.setValueLinePart1OffsetPercentage(90.f);
@@ -159,9 +146,5 @@ public class CustomChart {
 
             // update pie chart
             pieViewHolder.Chart.invalidate();
-
-
         }
-
-
 }

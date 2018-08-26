@@ -1,5 +1,8 @@
 package com.dev.hacknit.Database;
 
+import android.text.Html;
+import android.text.Spanned;
+
 public class Bimestre{
 
     public int getIndex() {
@@ -38,6 +41,19 @@ public class Bimestre{
         return artes;
     }
 
+    public Spanned getNotaAsText(int nota) {
+        Spanned spanned;
+        if (nota < 6) {
+            spanned = Html.fromHtml("<font color='red'>" + nota + "</font>");
+            return spanned;
+        } else {
+            spanned = Html.fromHtml(String.valueOf(nota));
+            ;
+        }
+
+        return spanned;
+    }
+
     public int getEducacaofisica() {
         return educacaofisica;
     }
@@ -60,6 +76,6 @@ public class Bimestre{
     public int faltas;
 
     public String getFaltasAsDataString() {
-        return "1,"+(60-faltas)+";2,"+faltas+";";
+        return "1,"+(faltas)+";2,"+(60-faltas)+";";
     }
 }

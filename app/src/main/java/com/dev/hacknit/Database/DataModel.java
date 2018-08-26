@@ -1,14 +1,9 @@
 package com.dev.hacknit.Database;
 
-
-import android.util.Log;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class DataModel {
-
-
 
     public int getId() {
         return id;
@@ -51,20 +46,15 @@ public class DataModel {
         return anoList;
     }
 
-
-
-
         public Bimestre getBimestreByID(int id){
 
             for(int i=0;i<anoList.size();i++){
                 for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                   return anoList.get(i).bimestreList.get(id);
                 }
-
             }
             return null;
         }
-
 
     public String getMatematica(){
         String s = "";
@@ -72,11 +62,9 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).matematica)+";";
             }
-
         }
         return s;
     }
-
 
     public String getIngles(){
         String s = "";
@@ -84,7 +72,6 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).ingles)+";";
             }
-
         }
         return s;
     }
@@ -95,7 +82,6 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).artes)+";";
             }
-
         }
         return s;
     }
@@ -106,7 +92,6 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).educacaofisica)+";";
             }
-
         }
         return s;
     }
@@ -117,7 +102,6 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).redacao)+";";
             }
-
         }
         return s;
     }
@@ -127,7 +111,6 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).geografia)+";";
             }
-
         }
         return s;
     }
@@ -137,7 +120,6 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).historia)+";";
             }
-
         }
         return s;
     }
@@ -147,7 +129,6 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).biologia)+";";
             }
-
         }
         return s;
     }
@@ -158,7 +139,6 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).filosofia)+";";
             }
-
         }
         return s;
     }
@@ -169,7 +149,6 @@ public class DataModel {
             for(int j=0;j<anoList.get(i).bimestreList.size();j++){
                 s += String.valueOf(i+1)+","+String.valueOf(anoList.get(i).bimestreList.get(j).portugues)+";";
             }
-
         }
         return s;
     }

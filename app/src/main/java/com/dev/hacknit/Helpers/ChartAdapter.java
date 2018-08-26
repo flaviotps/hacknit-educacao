@@ -60,8 +60,6 @@ public class ChartAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
                 view = LayoutInflater.from(parent.getContext()).inflate(R.layout.include_pie_chart, parent, false);
                 viewHolder = new PieViewHolder(view);
                 break;
-
-
         }
 
         return viewHolder;
@@ -74,16 +72,13 @@ public class ChartAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             // bind BarData
             ChartModel chartModel = charts.get(position);
             CustomChart.CreateBarChart((BarViewHolder) holder, chartModel);
-
         }
 
         if (holder instanceof PieViewHolder) {
             // bind BarData
             ChartModel chartModel = charts.get(position);
             CustomChart.CreatePieChart((PieViewHolder) holder, chartModel);
-
         }
-
     }
 
     @Override
@@ -96,11 +91,13 @@ public class ChartAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
         public TextView Title;
         public BarChart Chart;
+        public TextView Info;
 
         public BarViewHolder(@NonNull View itemView) {
             super(itemView);
             Title = itemView.findViewById(R.id.BarChartTitle);
             Chart = itemView.findViewById(R.id.BarChart);
+            Info = itemView.findViewById(R.id.txtInfo);
         }
     }
 

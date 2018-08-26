@@ -10,8 +10,6 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 
 public class CustomFragmentManagerAdapter  extends FragmentStatePagerAdapter {
 
-
-
     private boolean ShowTitle = false;
     private List<Page> Pages = new ArrayList<Page>();
 
@@ -92,6 +90,4 @@ public class CustomFragmentManagerAdapter  extends FragmentStatePagerAdapter {
             return title;
         }
     }
-
-
 }

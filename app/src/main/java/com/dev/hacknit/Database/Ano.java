@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Ano{
 
-
     public int index;
 
     public List<Bimestre> bimestreList;
@@ -13,8 +12,6 @@ public class Ano{
     public int getIndex() {
         return index;
     }
-
-
 
     public List<Bimestre> getBimestreList() {
 
@@ -24,6 +21,5 @@ public class Ano{
     public Ano() {
         this.bimestreList = new ArrayList<Bimestre>();
     }
-
 
 }
