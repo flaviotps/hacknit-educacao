@@ -30,25 +30,25 @@ public class GraficosNotasActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Médias bimestrais");
 
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getMatematica(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Matemática"));
+        chartModels.add(new ChartModel(Database.dataModel.getMatematica(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Matemática"));
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getPortugues(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Português"));
+        chartModels.add(new ChartModel(Database.dataModel.getPortugues(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Português"));
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getIngles(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Inglês"));
+        chartModels.add(new ChartModel(Database.dataModel.getIngles(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Inglês"));
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getRedacao(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Redação"));
+        chartModels.add(new ChartModel(Database.dataModel.getRedacao(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Redação"));
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getArtes(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Artes"));
+        chartModels.add(new ChartModel(Database.dataModel.getArtes(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Artes"));
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getEducacaoFisica(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Educação Física"));
+        chartModels.add(new ChartModel(Database.dataModel.getEducacaoFisica(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Educação Física"));
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getBiologia(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Biologia"));
+        chartModels.add(new ChartModel(Database.dataModel.getBiologia(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Biologia"));
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getHistoria(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"História"));
+        chartModels.add(new ChartModel(Database.dataModel.getHistoria(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"História"));
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getGeografia(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Geografia"));
+        chartModels.add(new ChartModel(Database.dataModel.getGeografia(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Geografia"));
 
-        chartModels.add(new ChartModel(Database.dataModels.get(0).getFilosofia(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Filosofia"));
+        chartModels.add(new ChartModel(Database.dataModel.getFilosofia(),"Primeiro, Segundo, Terceiro, Quarto - (Bimestre)", Constants.CHART_TYPE_BAR,"Filosofia"));
 
 
 
