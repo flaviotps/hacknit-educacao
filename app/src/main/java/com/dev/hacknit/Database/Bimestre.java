@@ -1,5 +1,8 @@
 package com.dev.hacknit.Database;
 
+import android.text.Html;
+import android.text.Spanned;
+
 public class Bimestre{
 
     public int getIndex() {
@@ -36,6 +39,19 @@ public class Bimestre{
 
     public int getArtes() {
         return artes;
+    }
+
+    public Spanned getNotaAsText(int nota) {
+        Spanned spanned;
+        if (nota < 6) {
+            spanned = Html.fromHtml("<font color='red'>" + nota + "</font>");
+            return spanned;
+        } else {
+            spanned = Html.fromHtml(String.valueOf(nota));
+            ;
+        }
+
+        return spanned;
     }
 
     public int getEducacaofisica() {

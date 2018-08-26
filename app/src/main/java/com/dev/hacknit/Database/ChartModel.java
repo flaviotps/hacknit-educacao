@@ -41,6 +41,21 @@ public class ChartModel {
 
     }
 
+    public float getMedia() {
+
+        String[] DataArray = Data.split(";");
+        float sum = 0;
+
+        for (int i = 0; i < DataArray.length; i++) {
+
+            String[] BarInfo = DataArray[i].split(",");
+            float BarValue = StringToFloat(BarInfo[POSITION_VALUE]);
+            sum += BarValue;
+        }
+
+        return sum / DataArray.length;
+    }
+
     public int getChartType() {
         return Type;
     }
@@ -72,7 +87,6 @@ public class ChartModel {
         return entries;
     }
 }
-
 
 
 

@@ -1,6 +1,8 @@
 package com.dev.hacknit.Helpers;
 
 import android.graphics.Color;
+import android.view.View;
+
 import com.dev.hacknit.Database.ChartModel;
 import com.github.mikephil.charting.components.AxisBase;
 import com.github.mikephil.charting.components.Legend;
@@ -15,6 +17,7 @@ import com.github.mikephil.charting.data.PieEntry;
 import com.github.mikephil.charting.formatter.IAxisValueFormatter;
 import com.github.mikephil.charting.formatter.IValueFormatter;
 import com.github.mikephil.charting.utils.ViewPortHandler;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,6 +47,11 @@ public class CustomChart {
 
         public static void CreateBarChart(ChartAdapter.BarViewHolder barViewHolder, ChartModel chartModel) {
 
+            if (chartModel.getMedia() < 6.0f) {
+                barViewHolder.Info.setVisibility(View.VISIBLE);
+                barViewHolder.Info.setText("O aluno precisa de reforço em " + chartModel.Title.toLowerCase());
+            }
+            // barViewHolder.Info.
             barViewHolder.Title.setText(chartModel.Title);
             barViewHolder.Chart.getDescription().setText(empty);
             barViewHolder.Chart.getXAxis().setDrawLabels(false);

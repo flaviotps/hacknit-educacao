@@ -91,11 +91,13 @@ public class ChartAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
         public TextView Title;
         public BarChart Chart;
+        public TextView Info;
 
         public BarViewHolder(@NonNull View itemView) {
             super(itemView);
             Title = itemView.findViewById(R.id.BarChartTitle);
             Chart = itemView.findViewById(R.id.BarChart);
+            Info = itemView.findViewById(R.id.txtInfo);
         }
     }
 
