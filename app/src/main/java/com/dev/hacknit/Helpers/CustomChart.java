@@ -76,7 +76,7 @@ public class CustomChart {
 
             if (chartModel.getMedia() < 6.0f) {
                 barViewHolder.Info.setVisibility(View.VISIBLE);
-                barViewHolder.Info.setText(barViewHolder.Title.getText());
+                barViewHolder.Info.setText("O aluno precisa de reforço em: "+barViewHolder.Title.getText().toString().toLowerCase());
             } else {
                 barViewHolder.Info.setVisibility(View.GONE);
                 barViewHolder.Info.setText("");
